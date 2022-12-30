@@ -15,11 +15,13 @@ class AppLayout {
   }
 
   static getHeight(double pixels) {
+    // var modifiedPixels =pixels - pixels * 0.1;
     double x = getScreenHeight() / pixels;
     return getScreenHeight() / x;
   }
 
   static getWidth(double pixels) {
+    // var modifiedPixels =pixels - pixels * 0.1;
     double x = getScreenWidth() / pixels;
     return getScreenWidth() / x;
   }
